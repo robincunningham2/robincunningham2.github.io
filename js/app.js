@@ -18,7 +18,3 @@ $(document).scroll(() => {
         $('#header').attr('class', null);
     }
 });
-
-$('section.top .button').click(() => {
-    scroll(650);
-});
