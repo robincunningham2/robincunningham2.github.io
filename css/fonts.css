@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: 'Jost';
+    font-weight: 300;
+    src: url('/fonts/Jost/Jost-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Jost';
+    font-weight: 600;
+    src: url('/fonts/Jost/Jost-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Vocal';
+    font-weight: 600;
+    src: url('/fonts/Vocal/Vocal-Bold.otf');
+}
