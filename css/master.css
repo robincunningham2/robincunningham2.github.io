@@ -135,7 +135,7 @@ section.top {
 }
 
 section.top div.background {
-    background-image: url('/assets/coding.jpg');
+    background-image: url('assets/coding.jpg');
     background-size: 100%;
     filter: brightness(50%);
     width: 100%;
