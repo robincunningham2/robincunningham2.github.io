@@ -17,6 +17,14 @@ body {
     font-size: 18px;
 }
 
+a {
+    color: #0087ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 h1 {
     font-weight: 500;
     font-size: 32px;
@@ -72,6 +80,7 @@ div.grid-container div.item div.img {
 div.grid-container div.item div.text {
     text-align: left;
     padding: 10px 25px;
+    color: #3a404b;
 }
 
 @media only screen and (max-width: 862px) {
