@@ -26,3 +26,19 @@ h1.title {
     padding-bottom: 10px;
     border-bottom: .5px solid rgba(0, 0, 0, .15);
 }
+
+a.github-corner {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+a.github-corner svg {
+    height: 85px;
+    color: white;
+    fill: #52be80;
+}
+
+a.github-corner:hover svg {
+    fill: #3db971;
+}
