@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: #333333;
+    color: #3a404b;
     width: 862px;
     margin: auto;
     text-align: center;
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 32px;
     margin-top: 55px;
 }
