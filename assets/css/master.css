@@ -1,4 +1,11 @@
 
+html {
+    --theme: #52be80;
+    --theme-darker: #3db971;
+    --text: #3a404b;
+    --shadow: rgba(0, 0, 0, .15);
+}
+
 * {
     border: none;
     background: none;
@@ -10,7 +17,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: #3a404b;
+    color: var(--text);
     width: 862px;
     margin: auto;
     text-align: center;
@@ -18,7 +25,7 @@ body {
 }
 
 a {
-    color: #0087ff;
+    color: var(--theme);
 }
 
 a:hover {
@@ -33,7 +40,7 @@ h1 {
 
 h1.title {
     padding-bottom: 10px;
-    border-bottom: .5px solid rgba(0, 0, 0, .15);
+    border-bottom: .5px solid var(--shadow);
     font-size: 38px;
 }
 
@@ -46,11 +53,11 @@ a.github-corner {
 a.github-corner svg {
     height: 85px;
     color: white;
-    fill: #52be80;
+    fill: var(--theme);
 }
 
 a.github-corner:hover svg {
-    fill: #3db971;
+    fill: var(--theme-darker);
 }
 
 div.grid-container {
@@ -61,13 +68,13 @@ div.grid-container div.item {
     display: inline-block;
     width: 40%;
     margin: 55px 3%;
-    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 3px var(--shadow);
     border-radius: 15px;
     transition-duration: .35s;
 }
 
 div.grid-container div.item:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+    box-shadow: 0 0 15px var(--shadow);
     transform: translateY(-5px) scale(1.01);
 }
 
@@ -80,7 +87,7 @@ div.grid-container div.item div.img {
 div.grid-container div.item div.text {
     text-align: left;
     padding: 10px 25px;
-    color: #3a404b;
+    color: var(--text);
 }
 
 @media only screen and (max-width: 862px) {
