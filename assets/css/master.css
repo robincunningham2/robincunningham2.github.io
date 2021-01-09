@@ -19,12 +19,14 @@ body {
 
 h1 {
     font-weight: 600;
+    font-size: 32px;
+    margin-top: 55px;
 }
 
 h1.title {
-    margin-top: 55px;
     padding-bottom: 10px;
     border-bottom: .5px solid rgba(0, 0, 0, .15);
+    font-size: 38px;
 }
 
 a.github-corner {
