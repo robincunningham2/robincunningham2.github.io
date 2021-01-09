@@ -44,3 +44,39 @@ a.github-corner svg {
 a.github-corner:hover svg {
     fill: #3db971;
 }
+
+div.grid-container {
+    margin-top: 25px;
+}
+
+div.grid-container div.item {
+    display: inline-block;
+    width: 40%;
+    margin: 55px 3%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+    border-radius: 15px;
+    transition-duration: .35s;
+}
+
+div.grid-container div.item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+    transform: translateY(-5px) scale(1.01);
+}
+
+div.grid-container div.item div.img {
+    border-radius: 15px;
+    height: 160px;
+    background-size: 100%;
+}
+
+div.grid-container div.item div.text {
+    text-align: left;
+    padding: 10px 25px;
+}
+
+@media only screen and (max-width: 862px) {
+    div.grid-container div.item {
+        display: block;
+        width: 100%;
+    }
+}
