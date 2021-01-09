@@ -4,9 +4,25 @@
     background: none;
     text-decoration: none;
     outline: none;
+    transition-duration: .2s;
 }
 
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    color: #333333;
+    width: 862px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h1.title {
+    margin-top: 55px;
+    padding-bottom: 10px;
+    border-bottom: .5px solid rgba(0, 0, 0, .15);
 }
