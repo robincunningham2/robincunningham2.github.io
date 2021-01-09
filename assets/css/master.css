@@ -46,7 +46,7 @@ a.github-corner:hover svg {
 }
 
 div.grid-container {
-    margin-top: 25px;
+    margin: 25px 0 25px 0;
 }
 
 div.grid-container div.item {
@@ -79,4 +79,8 @@ div.grid-container div.item div.text {
         display: block;
         width: 100%;
     }
+}
+
+div.footer {
+    line-height: 70px;
 }
